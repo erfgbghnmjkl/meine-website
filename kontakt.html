@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kontakt</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  header {
+    background-color: #4CAF50; /* Farblich passend zur Startseite */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  nav {
+    background-color: #45a049; /* Dunklere Farbe für Navigation */
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+
+  .contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .contact-info h3 {
+    margin-top: 0;
+    color: #4CAF50;
+  }
+
+  .contact-details {
+    margin-top: 15px;
+  }
+
+  .contact-details p {
+    margin: 8px 0;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+
+  /* Responsive Design */
+  @media(max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+<h1>Kontakt</h1>
+<nav>
+  <ul>
+    <li><a href="index.html">Startseite</a></li>
+    <li><a href="arten.html">Arten des Glücksspiels</a></li>
+    <li><a href="risiken.html">Risiken & Verantwortung</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+</nav>
+</header>
+
+<main>
+<h2>Kontaktieren Sie uns</h2>
+
+<div class="contact-info">
+<h3>Unsere Kontaktdaten</h3>
+<div class="contact-details">
+Keine Kontaktdaten
+(Bitte lassen Sie uns in Ruhe)
+</div>
+</div>
+
+<h3>Kontaktformular</h3>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required />
+
+<label for="email">E-Mail:</label>
+<input type="email" id="email" name="email" required />
+
+<label for="nachricht">Nachricht:</label>
+<textarea id="nachricht" name="nachricht" rows="4" required></textarea>
+
+<button type="submit">Absenden</button>
+</form>
+</main>
+
+<footer>
+<p>© 2025 Glücksspiel Info</p>
+</footer>
+</body>
+</html>
